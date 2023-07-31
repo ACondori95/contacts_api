@@ -1,0 +1,26 @@
+// LOCALHOST
+###
+GET http://localhost:8080/contacts
+
+###
+GET http://localhost:8080/contacts/64c7c67ef4cad35c15ac6710
+
+###
+GET http://localhost:8080/contacts/64c7c67ef4cad35c15ac6711
+
+###
+GET http://localhost:8080/contacts/64c7c67ef4cad35c15ac6712
+
+
+// RENDER
+###
+GET https://contacts-iqs9.onrender.com/contacts
+
+###
+GET https://contacts-iqs9.onrender.com/contacts/64c7c67ef4cad35c15ac6710
+
+###
+GET https://contacts-iqs9.onrender.com/contacts/64c7c67ef4cad35c15ac6711
+
+###
+GET https://contacts-iqs9.onrender.com/contacts/64c7c67ef4cad35c15ac6712

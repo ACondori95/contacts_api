@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Milagro",
+    "lastName": "Ayarde",
+    "email": "milagro.ayarde@email.com",
+    "favoriteColor": "Purple",
+    "birthday": "04/28/2000"
+  },
+  {
+    "firstName": "Alvaro",
+    "lastName": "Condori",
+    "email": "alvaro.condori@email.com",
+    "favoriteColor": "Blue",
+    "birthday": "05/10/1995"
+  },
+  {
+    "firstName": "Canela",
+    "lastName": "Ayarde",
+    "email": "canela.condori@email.com",
+    "favoriteColor": "Brown",
+    "birthday": "12/15/2011"
+  }
+]
