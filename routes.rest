@@ -11,16 +11,70 @@ GET http://localhost:8080/contacts/64c7c67ef4cad35c15ac6711
 ###
 GET http://localhost:8080/contacts/64c7c67ef4cad35c15ac6712
 
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce.banner@email.com",
+  "favoriteColor": "Green",
+  "birthday": "01/01/1980"
+}
+
+### PUT contact
+PUT http://localhost:8080/contacts/64c7e007bd5cc2879962304c HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce.thehulk@email.com",
+  "favoriteColor": "Green",
+  "birthday": "01/01/1980"
+}
+
+### DELETE contact
+DELETE http://localhost:8080/contacts/64c7e007bd5cc2879962304c HTTP/1.1
+
 
 // RENDER
 ###
-GET https://contacts-iqs9.onrender.com/contacts
+GET https://contacts-36yq.onrender.com/contacts
 
 ###
-GET https://contacts-iqs9.onrender.com/contacts/64c7c67ef4cad35c15ac6710
+GET https://contacts-36yq.onrender.com/contacts/64c7c67ef4cad35c15ac6710
 
 ###
-GET https://contacts-iqs9.onrender.com/contacts/64c7c67ef4cad35c15ac6711
+GET https://contacts-36yq.onrender.com/contacts/64c7c67ef4cad35c15ac6711
 
 ###
-GET https://contacts-iqs9.onrender.com/contacts/64c7c67ef4cad35c15ac6712
+GET https://contacts-36yq.onrender.com/contacts/64c7c67ef4cad35c15ac6712
+
+### Create contact
+POST https://contacts-36yq.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce.banner@email.com",
+  "favoriteColor": "Green",
+  "birthday": "01/01/1980"
+}
+
+### PUT contact
+PUT https://contacts-36yq.onrender.com/contacts/64c7e007bd5cc2879962304c HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce.thehulk@email.com",
+  "favoriteColor": "Green",
+  "birthday": "01/01/1980"
+}
+
+### DELETE contact
+DELETE https://contacts-36yq.onrender.com/contacts/64c7e007bd5cc2879962304c HTTP/1.1
